@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button {
+    color: #005FAC;
+    background-color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Hero section styles */
+.hero-section {
+    background-image: url(../images/banner/banner3.png);
+    padding: 150px 150px 150px 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.hero-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.hero-description {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 10px 0 20px 0;
+}
