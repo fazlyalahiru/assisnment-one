@@ -60,6 +60,7 @@
     font-size: 16px;
     margin: 10px 0;
     color: #444343;
+    line-height: 1.5;
 }
 
 .my-failures-right li {
@@ -72,4 +73,27 @@
     color: #005FAC;
     margin: 0 5px 0 0;
 }
+
 /* my plans styles */
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.my-plans {
+    text-align: center;
+    padding: 50px 150px;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 24px;
+}
+
+.plan-description {
+    color: #737272;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
