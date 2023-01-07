@@ -55,15 +55,7 @@
 
 .habit-implement h1 {
     text-align: center;
-}
-
-.habit-implement-description {
-    font-weight: 400;
-    font-size: 16px;
-    margin: 10px 0;
-    color: #444343;
-    line-height: 1.5;
-    text-align: center;
+    margin-bottom: 30px;
 }
 
 .habit-implement-container {
