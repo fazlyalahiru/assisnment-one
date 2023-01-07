@@ -29,7 +29,7 @@
     line-height: 1.2;
 }
 
-.hero-description {
+.white-description {
     color: #fff;
     font-size: 16px;
     line-height: 1.4;
@@ -96,4 +96,69 @@
     margin-top: 10px;
     font-size: 16px;
 
+}
+
+/* Positive Mind Styles */
+.positive-mindset {
+    margin: 50px 150px;
+    background: url(../images/watch.png) no-repeat;
+    background-color: #005fac7f;
+    background-blend-mode: multiply;
+    background-size: contain;
+    padding: 75px 50px;
+}
+
+.white-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+/* footer section css */
+.footer-container {
+    background-color: #151414;
+    padding: 50px 150px;
+    display: flex;
+}
+
+.subscribe-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.type-submit {
+    display: block;
+}
+
+.type-email input {
+    background-color: #151414;
+    border: 1px solid #F3F3F3;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+::placeholder{
+color: #F3F3F3;
+}
+
+.type-submit input {
+    color: #fff;
+    background-color: #005FAC;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-left {
+    padding-right: 100px;
+}
+
+.footer-right {
+    display: grid;
+    align-content: center;
 }
