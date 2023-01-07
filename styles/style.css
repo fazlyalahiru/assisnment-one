@@ -5,7 +5,7 @@
 
 .primary-button {
     color: #005FAC;
-    background-color: #fff;
+    background-color: #F8F8F8;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -23,14 +23,14 @@
 }
 
 .hero-title {
-    color: #fff;
+    color: #F8F8F8;
     font-weight: 700;
     font-size: 50px;
     line-height: 1.2;
 }
 
 .white-description {
-    color: #fff;
+    color: #F8F8F8;
     font-size: 16px;
     line-height: 1.4;
     margin: 10px 0 20px 0;
@@ -101,15 +101,17 @@
 /* Positive Mind Styles */
 .positive-mindset {
     margin: 50px 150px;
-    background: url(../images/watch.png) no-repeat;
-    background-color: #005fac7f;
-    background-blend-mode: multiply;
-    background-size: contain;
-    padding: 75px 50px;
+
+    background: linear-gradient(90deg, #005FAC, #f8f8f800), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 50px;
+    background-blend-mode: normal;
+    border-radius: 5px;
 }
 
 .white-title {
-    color: #fff;
+    color: #F8F8F8;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.2;
@@ -119,14 +121,14 @@
 /* footer section css */
 .footer-container {
     background-color: #151414;
-    padding: 50px 150px;
+    padding: 80px 150px;
     display: flex;
 }
 
 .subscribe-title {
     font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: #F8F8F8;
 }
 
 .type-submit {
@@ -140,12 +142,13 @@
     border-radius: 5px;
     margin: 20px 0 10px 0;
 }
-::placeholder{
-color: #F3F3F3;
+
+::placeholder {
+    color: #F3F3F3;
 }
 
 .type-submit input {
-    color: #fff;
+    color: #F8F8F8;
     background-color: #005FAC;
     border: none;
     padding: 10px 15px;
@@ -158,7 +161,11 @@ color: #F3F3F3;
     padding-right: 100px;
 }
 
+.footer-left img {
+    width: 35px;
+    padding: 0 5px;
+}
+
 .footer-right {
-    display: grid;
-    align-content: center;
+    margin-top: 20px;
 }
